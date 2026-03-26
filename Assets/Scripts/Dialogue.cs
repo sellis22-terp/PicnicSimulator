@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class Dialogue : MonoBehaviour
@@ -10,6 +11,9 @@ public class Dialogue : MonoBehaviour
     private Queue<string> dialogue;
     [SerializeField] string[] dialogueTemp;
     [SerializeField] TextMeshProUGUI dialogueText;
+    [SerializeField] Button nextButton;
+    [SerializeField] GameObject toBeDeleted;
+    [SerializeField] AudioSource audioToPlay;
 
     void Start()
     {   
@@ -24,5 +28,25 @@ public class Dialogue : MonoBehaviour
         if (dialogue.Count != 0) {
             dialogueText.SetText(dialogue.Dequeue());
         }
+        else
+        {
+            Remove();
+        }
+    }
+
+    private void Remove()
+    {
+        if (toBeDeleted)
+        {
+            Destroy(toBeDeleted);
+
+        }
+
+        if (audioToPlay)
+        {
+            audioToPlay.Play();
+        }
+
+        nextButton.interactable = false;
     }
 }
