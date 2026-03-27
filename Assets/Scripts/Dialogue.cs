@@ -14,6 +14,8 @@ public class Dialogue : MonoBehaviour
     [SerializeField] Button nextButton;
     [SerializeField] GameObject toBeDeleted;
     [SerializeField] AudioSource audioToPlay;
+    
+    
 
     void Start()
     {   
@@ -31,6 +33,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             Remove();
+            
         }
     }
 
