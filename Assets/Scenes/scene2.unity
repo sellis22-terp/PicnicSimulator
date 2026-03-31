@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 1130925366}
+  shouldMove: 1
 --- !u!195 &371748336
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -399,6 +400,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1130925359}
     - target: {fileID: 3216877287391680264, guid: 958d8f662989f864f99ef5424cc619fb, type: 3}
+      propertyPath: startPos.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216877287391680264, guid: 958d8f662989f864f99ef5424cc619fb, type: 3}
       propertyPath: rotationSpeed
       value: 720
       objectReference: {fileID: 0}
@@ -452,6 +457,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3380739721656451287, guid: 958d8f662989f864f99ef5424cc619fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094801731650297114, guid: 958d8f662989f864f99ef5424cc619fb, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6213317952103705788, guid: 958d8f662989f864f99ef5424cc619fb, type: 3}
