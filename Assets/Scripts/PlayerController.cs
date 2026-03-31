@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private float movementX;
     private float movementY;
+    private AudioSource characterAudioSource;
+    [SerializeField] Vector3 startPos;
 
     void Start()
     {
@@ -49,5 +51,13 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             Debug.Log("item");
         }
+    }
+
+
+    public void Reset()
+    {
+        transform.position = startPos;
+        characterAudioSource.Play();
+        Debug.Log("hit");
     }
 }
