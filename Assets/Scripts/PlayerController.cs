@@ -39,4 +39,15 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
 
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the object the player collided with has the "PickUp" tag.
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            // Deactivate the collided object (making it disappear).
+            other.gameObject.SetActive(false);
+            Debug.Log("item");
+        }
+    }
 }
