@@ -991,6 +991,7 @@ GameObject:
   - component: {fileID: 4794108467614757324}
   - component: {fileID: 3216877287391680264}
   - component: {fileID: 7154119125775614980}
+  - component: {fileID: 6141649400055610392}
   - component: {fileID: 6094801731650297114}
   m_Layer: 0
   m_Name: Player
@@ -1152,6 +1153,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonControls
   speedControl: 1500
   pivotLink: {fileID: 6213317952103705788}
+--- !u!114 &6141649400055610392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6213317952103705788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfda345e21ca834086a5f3e0d17a478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiscPersonThings
+  maxCount: 0
+  dialogueText: {fileID: 0}
 --- !u!82 &6094801731650297114
 AudioSource:
   m_ObjectHideFlags: 0

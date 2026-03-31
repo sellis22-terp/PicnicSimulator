@@ -9,8 +9,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private float movementX;
     private float movementY;
-    private AudioSource characterAudioSource;
-    [SerializeField] Vector3 startPos;
 
     void Start()
     {
@@ -40,24 +38,5 @@ public class PlayerController : MonoBehaviour
         Vector3 targetVelocity = moveDirection * speed;
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
 
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        // Check if the object the player collided with has the "PickUp" tag.
-        if (other.gameObject.CompareTag("PickUp"))
-        {
-            // Deactivate the collided object (making it disappear).
-            other.gameObject.SetActive(false);
-            Debug.Log("item");
-        }
-    }
-
-
-    public void Reset()
-    {
-        transform.position = startPos;
-        characterAudioSource.Play();
-        Debug.Log("hit");
     }
 }

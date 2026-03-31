@@ -32,7 +32,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerController>().Reset();
+            collision.gameObject.GetComponent<MiscPersonThings>().Reset();
         }
     }
 }
