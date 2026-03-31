@@ -1,8 +1,5 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements; // Ensure you have the Input System package installed
+using UnityEngine.InputSystem; // Ensure you have the Input System package installed
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,7 +18,6 @@ public class PlayerController : MonoBehaviour
 
         // Character characters usually don't roll, so freeze rotation on X and Z
         rb.freezeRotation = true;
-        characterAudioSource = GetComponent<AudioSource>();
     }
 
     void OnMove(InputValue movementValue)
@@ -56,6 +52,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("item");
         }
     }
+
 
     public void Reset()
     {
