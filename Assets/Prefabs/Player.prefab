@@ -1138,7 +1138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 10
   rotationSpeed: 720
-  startPos: {x: 0, y: 0, z: 0}
 --- !u!114 &7154119125775614980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,8 +1164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdfda345e21ca834086a5f3e0d17a478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MiscPersonThings
-  maxCount: 0
   dialogueText: {fileID: 0}
+  startPos: {x: 0, y: 2, z: 0}
+  pickUp: {fileID: 0}
 --- !u!82 &6094801731650297114
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1179,7 +1179,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d06cb4eae4bb05b4bacaac924d059eb2, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

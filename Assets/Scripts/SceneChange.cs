@@ -5,13 +5,18 @@ using System;
 
 public class SceneChange : MonoBehaviour
 {
-    [SerializeField] String sceneToChangeTo;
+    [SerializeField] string sceneToChangeTo;
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
             SceneManager.LoadScene(sceneToChangeTo);
         }
+    }
+
+    public void SetScene(string scene)
+    {
+        sceneToChangeTo = scene;
     }
 }
 
