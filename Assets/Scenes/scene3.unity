@@ -12709,7 +12709,7 @@ PrefabInstance:
       objectReference: {fileID: 2078399239}
     - target: {fileID: 7114162103856756678, guid: 5a51693bcf088bb488b9e249e740f29a, type: 3}
       propertyPath: dialogueTemp.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7114162103856756678, guid: 5a51693bcf088bb488b9e249e740f29a, type: 3}
       propertyPath: 'dialogueTemp.Array.data[0]'
@@ -12717,7 +12717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114162103856756678, guid: 5a51693bcf088bb488b9e249e740f29a, type: 3}
       propertyPath: 'dialogueTemp.Array.data[1]'
-      value: ' '
+      value: I was hungry too...
       objectReference: {fileID: 0}
     - target: {fileID: 7114162103856756678, guid: 5a51693bcf088bb488b9e249e740f29a, type: 3}
       propertyPath: 'dialogueTemp.Array.data[2]'
