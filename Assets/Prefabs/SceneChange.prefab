@@ -66,4 +66,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3254c4978d38fff4dabc9627bdd3c840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChange
-  sceneToChangeTo: 
+  sceneToChangeTo: 2
