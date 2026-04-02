@@ -37,7 +37,7 @@ public class Scoreboard : MonoBehaviour
                 scoreText.text = "Head to the <color=blue>blue</color> flowers!";
             }
             GameObject temp = Instantiate(sceneChanger);
-            sceneChanger.GetComponent<SceneChange>().SetScene("scene1");
+            sceneChanger.GetComponent<SceneChange>().SetScene("scene3");
             temp.transform.position = spawnPositions[random];
             
         }
