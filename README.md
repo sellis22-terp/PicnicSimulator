@@ -1,6 +1,7 @@
 Picnic Simulator-
 
-Can you help the squirrel prepare a picnic for all their friends? A ghost has stolen the food and Squirrely needs YOUR help to save the picnic!
+Can you help a little squirrel prepare a picnic for all their friends? A ghost has stolen all the food and Squirrely needs YOUR help to save the picnic! First you will need to talk 
+to Squirrely to get information. Then, head into the forest to retrieve the stolen items while avoiding the hungry ghost... 
 
 Scene 1:
 <img width="1275" height="716" alt="Screenshot 2026-04-02 125603" src="https://github.com/user-attachments/assets/9cb0ba8f-ac36-4ed7-9b1c-7a5c1e30dbfe" />
