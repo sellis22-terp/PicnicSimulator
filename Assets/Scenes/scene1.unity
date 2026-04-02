@@ -8849,7 +8849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4912300961255326374, guid: 5d2cf1de1b6bcd549a3cb7ff781959f7, type: 3}
       propertyPath: sceneToChangeTo
-      value: scene2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6589263691383910754, guid: 5d2cf1de1b6bcd549a3cb7ff781959f7, type: 3}
       propertyPath: m_Name

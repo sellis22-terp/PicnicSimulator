@@ -5,7 +5,7 @@ using System;
 
 public class SceneChange : MonoBehaviour
 {
-    [SerializeField] string sceneToChangeTo;
+    [SerializeField] int sceneToChangeTo;
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -14,7 +14,7 @@ public class SceneChange : MonoBehaviour
         }
     }
 
-    public void SetScene(string scene)
+    public void SetScene(int scene)
     {
         sceneToChangeTo = scene;
     }
