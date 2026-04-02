@@ -12,6 +12,7 @@ public class InteractableAnimal : MonoBehaviour
     {   
         // Turn it off to start, I also did it in the scene view so this is kinda redundant
         dialogueGUI.SetActive(false);
+        input.actions.FindAction("Look").Enable();
     }
 
     private void OnTriggerEnter(Collider other) {

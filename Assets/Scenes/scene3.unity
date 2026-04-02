@@ -4389,6 +4389,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteractableAnimal
   dialogueGUI: {fileID: 640773565}
   input: {fileID: 559109714}
+--- !u!135 &635624052
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635624048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &640773565 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6392190955750380227, guid: 5a51693bcf088bb488b9e249e740f29a, type: 3}
@@ -12346,6 +12367,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 635624051}
+    - targetCorrespondingSourceObject: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635624052}
   m_SourcePrefab: {fileID: 100100000, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
 --- !u!4 &1886476447 stripped
 Transform:
