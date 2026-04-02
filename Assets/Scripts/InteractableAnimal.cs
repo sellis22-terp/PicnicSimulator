@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class LittleSquirrel : MonoBehaviour
+public class InteractableAnimal : MonoBehaviour
 {
     
     [SerializeField] GameObject dialogueGUI;

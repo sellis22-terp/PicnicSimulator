@@ -21,6 +21,7 @@ public class Dialogue : MonoBehaviour
     {   
         // Convert the Array into a Queue
         dialogue = new Queue<string>(dialogueTemp);
+        //gameObject.SetActive(false);
         SetText();
     }
 
