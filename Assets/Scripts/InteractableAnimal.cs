@@ -12,6 +12,7 @@ public class InteractableAnimal : MonoBehaviour
     {   
         // Turn it off to start, I also did it in the scene view so this is kinda redundant
         dialogueGUI.SetActive(false);
+        input.actions.FindAction("Look").Enable();
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -20,11 +21,12 @@ public class InteractableAnimal : MonoBehaviour
         {   
             // Visible   
             dialogueGUI.SetActive(true);
+            input.actions.FindAction("Look").Disable();
         }
 
         // Without this whenever you try to move your mouse to the next button the screen would move
         // This line essentially disables OnLook in ThirdPersonControls.cs
-        input.actions.FindAction("Look").Disable();
+        
     }
 
     private void OnTriggerExit(Collider other)
